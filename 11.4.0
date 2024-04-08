@@ -82,7 +82,7 @@ OPTIONS //选项
            -fplugin-arg-name=arg -fdump-ada-spec[-slim]
            -fada-spec-parent=unit  -fdump-go-spec=file
 
-       C Language Options
+       C Language Options //C语言选项
            -ansi  -std=standard  -fgnu89-inline
            -fpermitted-flt-eval-methods=standard -aux-info filename
            -fallow-parameterless-variadic-functions -fno-asm  -fno-builtin

@@ -70,11 +70,11 @@ DESCRIPTION
        decimal byte size prefixes.
 
 OPTIONS //选项
-   Option Summary
+   Option Summary //选项概述
        Here is a summary of all the options, grouped by type.  Explanations
        are in the following sections.
 
-       Overall Options
+       Overall Options //公共选项
            -c  -S  -E  -o file -dumpbase dumpbase  -dumpbase-ext auxdropsuf
            -dumpdir dumppfx  -x language -v  -###  --help[=class[,...]]
            --target-help  --version -pass-exit-codes  -pipe  -specs=file
@@ -93,7 +93,7 @@ OPTIONS //选项
            -fsigned-bitfields  -fsigned-char -funsigned-bitfields
            -funsigned-char
 
-       C++ Language Options
+       C++ Language Options //C++语言选项
            -fabi-version=n  -fno-access-control -faligned-new=n
            -fargs-in-order=n  -fchar8_t  -fcheck-new -fconstexpr-depth=n
            -fconstexpr-cache-depth=n -fconstexpr-loop-limit=n
@@ -135,7 +135,7 @@ OPTIONS //选项
            -Wno-virtual-move-assign  -Wvolatile
            -Wzero-as-null-pointer-constant
 
-       Objective-C and Objective-C++ Language Options
+       Objective-C and Objective-C++ Language Options //Objective-C和Objective-C++语言选项
            -fconstant-string-class=class-name -fgnu-runtime  -fnext-runtime
            -fno-nil-receivers -fobjc-abi-version=n -fobjc-call-cxx-cdtors
            -fobjc-direct-dispatch -fobjc-exceptions -fobjc-gc -fobjc-nilcheck
@@ -145,7 +145,7 @@ OPTIONS //选项
            -Wno-property-assign-default -Wno-protocol -Wobjc-root-class
            -Wselector -Wstrict-selector-match -Wundeclared-selector
 
-       Diagnostic Message Formatting Options
+       Diagnostic Message Formatting Options //诊断消息格式选项
            -fmessage-length=n -fdiagnostics-plain-output
            -fdiagnostics-show-location=[once|every-line]
            -fdiagnostics-color=[auto|never|always]
@@ -161,7 +161,7 @@ OPTIONS //选项
            -fdiagnostics-column-unit=[display|byte]
            -fdiagnostics-column-origin=origin
 
-       Warning Options
+       Warning Options //警告选项
            -fsyntax-only  -fmax-errors=n  -Wpedantic -pedantic-errors -w
            -Wextra  -Wall  -Wabi=n -Waddress  -Wno-address-of-packed-member
            -Waggregate-return -Walloc-size-larger-than=byte-size  -Walloc-zero
@@ -234,7 +234,7 @@ OPTIONS //选项
            -Wno-vla-larger-than -Wvolatile-register-var  -Wwrite-strings
            -Wzero-length-bounds
 
-       Static Analyzer Options
+       Static Analyzer Options //静态分析器选项
            -fanalyzer -fanalyzer-call-summaries -fanalyzer-checker=name
            -fno-analyzer-feasibility -fanalyzer-fine-grained
            -fanalyzer-state-merge -fanalyzer-state-purge
@@ -261,14 +261,14 @@ OPTIONS //选项
            -Wno-analyzer-use-of-uninitialized-value
            -Wno-analyzer-write-to-const -Wno-analyzer-write-to-string-literal
 
-       C and Objective-C-only Warning Options
+       C and Objective-C-only Warning Options C和仅限objective -C的警告选项
            -Wbad-function-cast  -Wmissing-declarations
            -Wmissing-parameter-type  -Wmissing-prototypes  -Wnested-externs
            -Wold-style-declaration  -Wold-style-definition -Wstrict-prototypes
            -Wtraditional  -Wtraditional-conversion
            -Wdeclaration-after-statement  -Wpointer-sign
 
-       Debugging Options
+       Debugging Options //调试选项
            -g  -glevel  -gdwarf  -gdwarf-version -ggdb  -grecord-gcc-switches
            -gno-record-gcc-switches -gstabs  -gstabs+  -gstrict-dwarf
            -gno-strict-dwarf -gas-loc-support  -gno-as-loc-support
@@ -286,7 +286,7 @@ OPTIONS //选项
            -femit-class-debug-always -fno-merge-debug-strings
            -fno-dwarf2-cfi-asm -fvar-tracking  -fvar-tracking-assignments
 
-       Optimization Options
+       Optimization Options //优化选项
            -faggressive-loop-optimizations -falign-functions[=n[:m:[n2[:m2]]]]
            -falign-jumps[=n[:m:[n2[:m2]]]] -falign-labels[=n[:m:[n2[:m2]]]]
            -falign-loops[=n[:m:[n2[:m2]]]] -fno-allocation-dce
@@ -367,7 +367,7 @@ OPTIONS //选项
            -fwhole-program  -fwpa  -fuse-linker-plugin -fzero-call-used-regs
            --param name=value -O  -O0  -O1  -O2  -O3  -Os  -Ofast  -Og
 
-       Program Instrumentation Options
+       Program Instrumentation Options //程序检测选项
            -p  -pg  -fprofile-arcs  --coverage  -ftest-coverage
            -fprofile-abs-path -fprofile-dir=path  -fprofile-generate
            -fprofile-generate=path -fprofile-info-section
@@ -387,7 +387,7 @@ OPTIONS //选项
            -finstrument-functions-exclude-function-list=sym,sym,...
            -finstrument-functions-exclude-file-list=file,file,...
 
-       Preprocessor Options
+       Preprocessor Options //预处理选项
            -Aquestion=answer -A-question[=answer] -C  -CC  -Dmacro[=defn] -dD
            -dI  -dM  -dN  -dU -fdebug-cpp  -fdirectives-only
            -fdollars-in-identifiers -fexec-charset=charset
@@ -401,10 +401,10 @@ OPTIONS //选项
            -pthread  -remap -traditional  -traditional-cpp  -trigraphs -Umacro
            -undef -Wp,option  -Xpreprocessor option
 
-       Assembler Options
+       Assembler Options //汇编器选项
            -Wa,option  -Xassembler option
 
-       Linker Options
+       Linker Options //链接器选项
            object-file-name  -fuse-ld=linker  -llibrary -nostartfiles
            -nodefaultlibs  -nolibc  -nostdlib -e entry  --entry=entry -pie
            -pthread  -r  -rdynamic -s  -static  -static-pie  -static-libgcc
@@ -412,14 +412,14 @@ OPTIONS //选项
            -static-libubsan -shared  -shared-libgcc  -symbolic -T script
            -Wl,option  -Xlinker option -u symbol  -z keyword
 
-       Directory Options
+       Directory Options //目录选项
            -Bprefix  -Idir  -I- -idirafter dir -imacros file  -imultilib dir
            -iplugindir=dir  -iprefix file -iquote dir  -isysroot dir  -isystem
            dir -iwithprefix dir  -iwithprefixbefore dir -Ldir
            -no-canonical-prefixes  --no-sysroot-suffix -nostdinc  -nostdinc++
            --sysroot=dir
 
-       Code Generation Options
+       Code Generation Options //代码生成选项
            -fcall-saved-reg  -fcall-used-reg -ffixed-reg  -fexceptions
            -fnon-call-exceptions  -fdelete-dead-exceptions  -funwind-tables
            -fasynchronous-unwind-tables -fno-gnu-unique
@@ -432,7 +432,7 @@ OPTIONS //选项
            -fvisibility=[default|internal|hidden|protected]
            -fstrict-volatile-bitfields  -fsync-libcalls
 
-       Developer Options
+       Developer Options //
            -dletters  -dumpspecs  -dumpmachine  -dumpversion -dumpfullversion
            -fcallgraph-info[=su,da] -fchecking  -fchecking=n -fdbg-cnt-list
            -fdbg-cnt=counter-value-list -fdisable-ipa-pass_name
@@ -461,7 +461,7 @@ OPTIONS //选项
            -print-sysroot-headers-suffix -save-temps  -save-temps=cwd
            -save-temps=obj  -time[=file]
 
-       Machine-Dependent Options
+       Machine-Dependent Options //机器相关选项
            AArch64 Options -mabi=name  -mbig-endian  -mlittle-endian
            -mgeneral-regs-only -mcmodel=tiny  -mcmodel=small  -mcmodel=large
            -mstrict-align  -mno-strict-align -momit-leaf-frame-pointer
@@ -954,7 +954,7 @@ OPTIONS //选项
 
            zSeries Options See S/390 and zSeries Options.
 
-   Options Controlling the Kind of Output
+   Options Controlling the Kind of Output //控制输出类型的选项
        Compilation can involve up to four stages: preprocessing, compilation
        proper, assembly and linking, always in that order.  GCC is capable of
        preprocessing and compiling several files either into several assembler
@@ -1639,7 +1639,7 @@ OPTIONS //选项
        language; or command-line options meaningful for C and related
        languages; or options that are meaningful only for C++ programs.
 
-   Options Controlling C Dialect
+   Options Controlling C Dialect //控制C语言选项
        The following options control the dialect of C (or languages derived
        from C, such as C++, Objective-C and Objective-C++) that the compiler
        accepts:
@@ -13036,7 +13036,7 @@ OPTIONS //选项
 
            The maximum value of N and M is 65535.
 
-   Options Controlling the Preprocessor
+   Options Controlling the Preprocessor //控制预处理选项
        These options control the C preprocessor, which is run on each C source
        file before actual compilation.
 
